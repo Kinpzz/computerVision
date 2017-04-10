@@ -1,0 +1,16 @@
+*.jpg
+*.png
+*.bmp
+*.jpeg
+*.tif
+*.log
+*.tlog
+*.obj
+*.idb
+*.pdb
+*.pch
+*.exe
+*.lik
+*.lastbuildstate
+Debug
+x64
