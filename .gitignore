@@ -17,3 +17,5 @@ x64
 
 .DS_Store
 Thumbs.db
+.gitignore~
+.vs
