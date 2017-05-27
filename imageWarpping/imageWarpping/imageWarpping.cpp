@@ -2,7 +2,7 @@
 //
 
 #include "stdafx.h"
-#include "imageWrapping.h"
+#include "imageWarpping.h"
 
 using namespace cimg_library;
 CImg<double> reverse_wrapping(const CImg<double> source, vector<point> vertex) {

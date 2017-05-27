@@ -1,0 +1,16 @@
+function [resizedImage] = resizeImage_replication(originalImage,scaleFactor)
+% Zooming and Shrinking Images by Pixel Replication
+if scaleFactor <= 0
+    error('Error. ScaleFactor must positive')
+end
+% size of original image
+[row, col] = size(originalImage);
+resizedImage = zeros(row, col);
+for i = 1 : (row*scaleFactor)
+    for j= 1 : (col*scaleFactor)
+        resizedImage(i,j)=originalImage(i/scaleFactor), j/scaleFactor));
+    end
+end
+
+end
+
